@@ -1,0 +1,5 @@
+[
+ {"name":"c_id","title":"Case Id"},
+ {"name":"c_date","title":"Case Date","breakpoints":"xs sm"},
+ {"name":"c_intermediary","title":"intermediary","breakpoints":"xs sm"}
+]
