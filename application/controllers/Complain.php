@@ -11,6 +11,7 @@ class Complain extends Admin_Controller
         $this->load->model('Usermodel');
         $this->load->model('Mailmodel');
         $this->load->model('Sectionmodel');    
+        
     }
 	
     public function upload_document($mt_id)
