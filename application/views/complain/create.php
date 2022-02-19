@@ -113,7 +113,7 @@
 
                                     <div class="col-12 col-sm-6">
                                         <label class="m-t-20">Incident Date</label>
-                                        <input type="text" class="form-control" placeholder="Enter Incident Date (DD-MM-YYYY Format)" id="m_incident_date" name="m_incident_date" value="<?=set_value('m_incident_date')?>" required>                                        
+                                        <input type="date" class="form-control" placeholder="Enter Incident Date (DD-MM-YYYY Format)" id="m_incident_date" name="m_incident_date" value="<?=set_value('m_incident_date')?>" required>                                        
                                         <?php echo form_error('m_incident_date'); ?>
                                     </div>
 

@@ -578,7 +578,7 @@ class Api extends My_Controller
 
     public function printSectionGraph()
     {
-        $this->data['division']=$this->Globalmodel->getdata_by_field_array('d_id,d_name','divisions',array('d_parent_id'=>0,'d_flag'=>'1'),'d_id', 'asc');	                                          
+        $this->data['division']=$this->Globalmodel->getdata_by_field_array('d_id,d_name','divisions',array('d_id'=>1,'d_parent_id'=>0,'d_flag'=>'1'),'d_id', 'asc');	                                          
         $div=array();
         
         foreach($this->data['division'] as $r)

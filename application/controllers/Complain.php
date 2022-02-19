@@ -10,7 +10,7 @@ class Complain extends Admin_Controller
         date_default_timezone_set('Asia/Kolkata');        
         $this->load->model('Usermodel');
         $this->load->model('Mailmodel');
-        $this->load->model('Sectionmodel');            
+        $this->load->model('Sectionmodel');
     }
 	
     public function upload_document($mt_id)
